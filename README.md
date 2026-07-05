@@ -2,7 +2,11 @@
 
 ## Simulator fixes log
 
-Corrections made to `simulator/als_simulator.py`'s anomaly-injection logic:
+Corrections made to `simulator/als_simulator.py`, in chronological order.
+
+### 2026-07-05
+
+Anomaly-injection logic:
 
 - **Anomalies no longer self-clamp.** `_step_anomaly` previously stopped and
   clamped a drifting channel the moment it would cross `safe_min`/`safe_max`,
