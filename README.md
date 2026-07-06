@@ -7,7 +7,7 @@ simulated accelerator control environment.
 ## What this is
 
 I wanted to understand what it actually takes to put an AI agent in front of
-a control system where a bad write matters — not just read a paper about it.
+a control system where a bad write matters.
 So I'm building an agent that operates against a simulated accelerator
 control backend (16 EPICS-style channels, see
 [docs/simulator.md](docs/simulator.md)): reading channel state, analyzing
